@@ -1,0 +1,18 @@
+#to get the no of times a value k is present in an list/array
+#to print if the value is present in the given list/array
+#call the function and pass th parameters in the format:
+# (arry/list,k)
+# k is value to be searched for
+
+def findk(arr,k):
+    v=0
+    for _ in arr:
+        if _ == k:
+            v+=1
+    if v >= 1:
+        print("YES")
+    else:
+        print("NO")
+    return v
+    v=0
+
